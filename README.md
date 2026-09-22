@@ -1,6 +1,3 @@
-# Linux-bash-scripts/README.md
-
-```markdown
 # Linux & Bash Scripts
 
 A collection of Linux administration and Bash scripting projects focused on system management, automation, troubleshooting, and common DevOps tasks.
