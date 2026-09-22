@@ -1,7 +1,4 @@
-
----
-
-# 3. `Linux-bash-scripts/README.md`
+# Linux-bash-scripts/README.md
 
 ```markdown
 # Linux & Bash Scripts
