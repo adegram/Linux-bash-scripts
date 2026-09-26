@@ -4,6 +4,7 @@ A practical Linux/DevOps project demonstrating **Bash scripting, filesystem oper
 
 A Bash utility for discovering large files safely and displaying results sorted by human-readable file size.
 
+
 ## Features
 
 - Searches a specified directory for large files
