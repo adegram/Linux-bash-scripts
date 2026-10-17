@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
+
+##############################################
+# Script: system-report.sh
+# Description: Linux System info quick report
+# Author: Adedoyin Ogunsola
+##############################################
+
 set -euo pipefail
 printf 'Hostname: '; hostname
 printf 'Kernel: '; uname -sr
