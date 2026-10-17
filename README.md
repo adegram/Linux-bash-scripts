@@ -12,7 +12,6 @@ The projects cover different areas of Linux administration and Bash automation, 
 - User and group management
 - File and directory management
 - Process management
-- Log management
 - Backup automation
 - Monitoring scripts
 - System automation
