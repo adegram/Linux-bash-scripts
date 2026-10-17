@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 # Report CPU load, memory, disk, uptime, and key service status.
+
+###########################
+#
+#
+#
+#
+#############################
+
+
 set -euo pipefail
 
 DISK_THRESHOLD=${DISK_THRESHOLD:-85}
