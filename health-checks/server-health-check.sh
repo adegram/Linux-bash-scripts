@@ -3,8 +3,9 @@
 
 ###########################
 #
-#
-#
+# Script: server-health-check.sh
+# Description: 
+# Author: Adedoyin Ogunsola
 #
 #############################
 
