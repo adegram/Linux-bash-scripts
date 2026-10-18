@@ -4,7 +4,7 @@
 ###########################
 #
 # Script: server-health-check.sh
-# Description: 
+# Description: Script to perform server monitoring
 # Author: Adedoyin Ogunsola
 #
 #############################
