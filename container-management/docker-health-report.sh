@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Summarize Docker container status and show containers reporting unhealthy.
 set -euo pipefail
 command -v docker >/dev/null 2>&1 || { echo 'docker CLI is required.' >&2; exit 2; }
