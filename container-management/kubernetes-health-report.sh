@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # Read-only Kubernetes cluster and workload status snapshot.
+# Description: Summarize Kubernetes workload status and show unhealthy pods.
+# Author: Adedoyin Ogunsola
+ 
 set -euo pipefail
 command -v kubectl >/dev/null 2>&1 || { echo 'kubectl is required.' >&2; exit 2; }
 kubectl cluster-info >/dev/null || { echo 'Cannot reach the Kubernetes cluster using the current context.' >&2; exit 1; }
