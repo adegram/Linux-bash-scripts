@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
-# Summarize Docker container status and show containers reporting unhealthy.
+#############################################
+# Script: docker-health-report.sh
+# Description: Summarize Docker container status and show containers reporting unhealthy.
+# Author: Adedoyin Ogunsola
+#############################################
+
 set -euo pipefail
 command -v docker >/dev/null 2>&1 || { echo 'docker CLI is required.' >&2; exit 2; }
 docker info >/dev/null 2>&1 || { echo 'Cannot access the Docker daemon; check service status and permissions.' >&2; exit 1; }
