@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
+
+##########
 # Quick DNS and TCP connectivity diagnostic for a hostname and port.
+# Description: Check DNS resolution and TCP connectivity for a given hostname and port.
+# Author: Adedoyin Ogunsola
+##########
 set -euo pipefail
 [[ $# -ge 1 && $# -le 2 ]] || { echo "Usage: $0 HOSTNAME [PORT]" >&2; exit 2; }
 host=$1; port=${2:-443}
