@@ -14,7 +14,7 @@ The projects cover different areas of Linux administration and Bash automation, 
 - Process management
 - Backup automation
 - Monitoring scripts
-- System automation
+- Container management
 - Troubleshooting scripts
 
 Projects may vary in scope and are organized separately based on the task or automation workflow being demonstrated.
